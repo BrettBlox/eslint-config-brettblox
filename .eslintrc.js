@@ -36,7 +36,7 @@ module.exports = {
       "no-unused-vars": [
         1,
         {
-          "ignoreSiblings": true
+          "ignoreRestSiblings": true
         }
       ],
       "prefer-const": [
