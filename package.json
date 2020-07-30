@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"description": "ESLint and Prettier Config",
 	"main": "index.js",
-	"repository": "",
+	"repository": "git@github.com:BrettBlox/eslint-config-brettblox.git",
 	"author": "Brett Bloxom <brettbloxom@gmail.com>",
 	"keywords": [
 		"javascript",
