@@ -15,7 +15,7 @@ npx install-peerdeps --dev eslint-config-brettblox
 or
 
 ```
-yarn add install-peerdeps --dev eslint-config-brettblox
+yarn install-peerdeps --dev eslint-config-brettblox
 ```
 
 ## .eslintrc
