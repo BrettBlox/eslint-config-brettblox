@@ -1,3 +1,6 @@
+# Eslint and Prettier Setup
+My settings for linting and formatting my code using prettier and eslint.
+
 ## What it does
 
 - Lints JavaScript based on the latest standards
