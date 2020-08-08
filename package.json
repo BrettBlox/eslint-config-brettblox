@@ -43,8 +43,5 @@
 	"scripts": {
 		"lint": "eslint .",
 		"lint:fix": "eslint --fix"
-	},
-	"dependencies": {
-		"install-peerdeps": "^2.0.3"
 	}
 }

@@ -12,8 +12,6 @@
 npx install-peerdeps --dev eslint-config-brettblox
 ```
 
-### .eslintrc
-
 Create a `.eslintrc` file in the root of your project's directory (it should live where package.json does). Your
 `.eslintrc` file should look like this:
 
@@ -28,8 +26,6 @@ Create a `.eslintrc` file in the root of your project's directory (it should liv
 ```
 npx install-peerdeps --global eslint-config-brettblox
 ```
-
-### .eslintrc
 
 Create a global `.eslintrc` file:
 
@@ -75,3 +71,13 @@ for VS Code:
   "javascriptreact",
 ]
 ```
+
+## Remove Install
+
+```npm remove --global eslint-config-wesbos babel-eslint eslint eslint-config-prettier eslint-config-airbnb eslint-plugin-html eslint-plugin-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react prettier eslint-plugin-react-hooks```
+
+To do the above for local, omit the `--global` flag.
+
+Then if you are using a local install, remove your package-lock.json file and delete the node_modules/ directory.
+
+Then follow the above instructions again.
