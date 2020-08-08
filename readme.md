@@ -4,24 +4,41 @@
 - Fixes issues and formatting errors with Prettier
 - Lints + Fixes inside of html script tags
 - Lints + Fixes React via eslint-config-airbnb
-- You can see all the [rules here](https://github.com/wesbos/eslint-config-wesbos/blob/master/.eslintrc.js)
+- You can see all the [rules here](https://github.com/brettblox/eslint-config-brettblox/blob/master/.eslintrc.js)
 
-## Installation
+## Local /  Project Installation
 
 ```
 npx install-peerdeps --dev eslint-config-brettblox
 ```
 
-or
-
-```
-yarn install-peerdeps --dev eslint-config-brettblox
-```
-
-## .eslintrc
+### .eslintrc
 
 Create a `.eslintrc` file in the root of your project's directory (it should live where package.json does). Your
 `.eslintrc` file should look like this:
+
+```json
+{
+  "extends": ["brettblox"]
+}
+```
+
+## Global Installation
+
+```
+npx install-peerdeps --global eslint-config-brettblox
+```
+
+### .eslintrc
+
+Create a global `.eslintrc` file:
+
+ESLint will look for one in your home directory
+
+* `~/.eslintrc` for mac
+* `C:\Users\username\.eslintrc` for windows
+
+In your `.eslintrc` file, it should look like this:
 
 ```json
 {
