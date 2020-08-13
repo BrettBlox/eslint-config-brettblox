@@ -77,7 +77,10 @@ for VS Code:
 
 ## Instructions for PHPStorm
 
-Once you have done the above install. To get PHPStorm to lint and format your code, navigate to Preferences > Languages & Frameworks > Javascript > Code Quality Tools > ESLint. Configure eslint using manual ESLint configuration with the below settings:
+Once you have done the above install. To get PHPStorm to lint and format your code: 
+
+1. Navigate to `Preferences` → `Languages & Frameworks` → `Javascript` → `Code Quality Tools` → `ESLint`. 
+2. Configure eslint using manual ESLint configuration with settings from the screenshot below making sure that `Run eslint --fix on save` is selected and that your `ESLint package:` path matches the path to the root of your project:
 
 ![PHP Storm config](./PHPStormConfig.png?raw=true)
 
