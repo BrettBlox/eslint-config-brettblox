@@ -84,5 +84,3 @@ npm remove --global eslint-config-brettblox babel-eslint eslint eslint-config-pr
 To do the above for local, omit the `--global` flag.
 
 Then if you are using a local install, remove your package-lock.json file and delete the node_modules/ directory.
-
-Then follow the above instructions again.
