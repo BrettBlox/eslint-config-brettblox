@@ -116,5 +116,5 @@ module.exports = {
       'controlComponents':['Field']
     }]
   },
-  'plugins': ['html', 'prettier', 'react-hooks', 'import'],
+  'plugins': ['html', 'prettier', 'react-hooks'],
 }
