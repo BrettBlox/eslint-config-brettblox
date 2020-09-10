@@ -5,7 +5,6 @@ module.exports = {
   'parser': 'babel-eslint',
   'parserOptions': {
     'ecmaVersion': 2020,
-    // Can I remove these now?
     'ecmaFeatures': {
       'impliedStrict': true,
       'classes': true,
@@ -59,7 +58,7 @@ module.exports = {
     'import/extensions': 0,
     'no-underscore-dangle': 0,
     'consistent-return': 0,
-    'react/display-name': 1,
+    'react/display-name': 0,
     'react/no-array-index-key': 0,
     'react/react-in-jsx-scope': 0,
     'react/prefer-stateless-function': 0,
@@ -67,12 +66,16 @@ module.exports = {
     'react/no-unescaped-entities': 0,
     'jsx-a11y/accessible-emoji': 0,
     'react/require-default-props': 0,
+    'react/prop-types': 0,
     'react/jsx-filename-extension': [
       1,
       {
         'extensions': ['.js', '.jsx'],
       },
     ],
+    'react/jsx-props-no-spreading': [1, {
+      "exceptions":["Component", "svg", "Link"]
+    }],
     'radix': 0,
     'no-shadow': [
       2,
@@ -109,6 +112,9 @@ module.exports = {
     ],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'jsx-a11y/label-has-associated-control': [2, {
+      'controlComponents':['Field']
+    }]
   },
   'plugins': ['html', 'prettier', 'react-hooks'],
 }
