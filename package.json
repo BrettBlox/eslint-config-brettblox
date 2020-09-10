@@ -1,6 +1,5 @@
 {
 	"name": "eslint-config-brettblox",
-	"version": "0.0.10",
 	"description": "ESLint and Prettier Config",
 	"main": "index.js",
 	"repository": "git@github.com:BrettBlox/eslint-config-brettblox.git",
